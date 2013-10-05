@@ -1,0 +1,3 @@
+set terminal png     
+set output "/var/www/t/temp_chart.png"
+plot '/var/www/t/temp_log.dat' with lines 

@@ -1,0 +1,138 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 999999px;
+}
+
+.slide {
+	width: 1024px;
+	height: 768px;
+	float: left;
+	background: #FFFFFF;
+	text-align: center;
+}
+
+a {
+	color: #2288DD;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 80px;
+	font-weight: 100;
+	font-family: 'DejaVu Sans Light';
+	color: #FFFFFF;
+	padding: 5px 15px;
+	margin: 50px 0 40px 0;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 100;
+	font-family: 'DejaVu Sans';
+	color: #444444;
+	margin: 0 20px 20px 20px;
+	padding: 0;
+}
+
+.slide p,
+.slide ul,
+.slide ol {
+	font-size: 20px;
+	font-family: 'DejaVu Sans';
+	color: #222222;
+	margin: 0 20px 20px 20px;
+	padding: 0;
+}
+
+.slide ul, .slide ol {
+	list-style-position: inside;
+	margin-left: 70px;
+}
+
+.slide ul li,
+.slide ol li {
+	margin: 0 0 0.5em 0;
+}
+
+button {
+	font-size: 40px;
+	margin: 0 0 0px 0px;
+	padding: 20px;
+	width: 90px;
+	height: 90px;
+}
+#SayIt
+{
+	width: 300px;
+	height: 80px;
+}
+#TextToSpeech
+{
+	width: 900px;
+	height: 300px;
+	font-size: 30px;
+}
+#make_foto
+{
+	width: 300px;
+	height: 80px;
+}
+#webcam
+{
+}
+.editor {
+	width: 984px;
+	height: 535px;
+	margin: 0 0 20px 21px;
+	font-size: 30px;
+}
+
+#panel
+{
+	width: 342px;
+	height: 768px;
+	background: orange;
+	position: fixed;
+	top: 0;
+	left: 1024px;
+	z-index: 9999;
+	font-size: 15px;
+}
+#panel h1
+{
+	font-size: 30px;
+	font-weight: 100;
+	font-family: 'DejaVu Sans Light';
+	color: #FFFFFF;
+	padding: 5px 5px;
+	margin: 5px 0 4px 0;
+}
+canvas {
+	margin: 0 0 20px 21px;
+	border: 3px ridge #AAAAAA;
+}
+
+.slide:nth-child(4n) h1 {
+	background: #F92672;
+}
+
+.slide:nth-child(4n + 1) h1 {
+	background: #66D9EF;
+}
+
+.slide:nth-child(4n + 2) h1 {
+	background: #A6E22E;
+}
+
+.slide:nth-child(4n + 3) h1 {
+	background: #FD971F;
+}
+
+272822
+F92672
+66D9EF
+A6E22E
+FD971F

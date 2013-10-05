@@ -1,0 +1,3 @@
+(voice_cstr_pl_em_diphone)
+(SayText "Witajcie Nazywam sie Orfar")
+(quit)
