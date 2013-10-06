@@ -85,3 +85,14 @@ function stream_video()
 
 		});
 }
+
+function Wczytaj(param)
+{
+	
+	var n=param.split(" ");
+	document.getElementById("silnik1").innerHTML=n[0];
+	document.getElementById("silnik2").innerHTML=n[1];
+	document.getElementById("napiecie").innerHTML=n[2];
+	document.getElementById("temperatura").innerHTML=n[2];
+}
+

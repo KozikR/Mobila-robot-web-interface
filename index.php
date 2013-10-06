@@ -7,6 +7,7 @@
 		<script src="jquery.js"></script>
 		<script src="ace/ace.js"></script>
 		<script src="script.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 	</head>
 	<body>
 	<div id="panel">
@@ -14,7 +15,27 @@
 		<ul>
 			<li>a - back</li>
 			<li>d - next</li>
-		<ul>
+		</ul>
+		<a href="#" onClick="$('#param').load('panel.txt')">Wczytaj dane</a>
+		<br>
+		<div>
+			<table>
+				<tr>
+					<td>Silniki:<br>
+					Akumulator:<br>
+					Temperatura:<br>
+					</td>
+					<td id="param"><br><br><br></td>
+					<td><br>
+					V<br>
+					<sup>o</sup>C
+					</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		
+		
 	</div> 
 		<div class="slide">
 			<h1>
@@ -26,7 +47,7 @@
 		</div>
 		<div class="slide">
 			<h1>
-				Motors Control
+			Motors Control
 			</h1>
 			<table>
 				<tr>
