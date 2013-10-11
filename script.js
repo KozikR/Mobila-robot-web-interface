@@ -86,13 +86,26 @@ function stream_video()
 		});
 }
 
-function Wczytaj(param)
+$(document).ready(function()
 {
-	
-	var n=param.split(" ");
-	document.getElementById("silnik1").innerHTML=n[0];
+	var dane_panel = document.getElementById("param").innerHTML;
+	var n = dane_panel.split(" ");
+	document.getElementById("silnik1").innerHTML=n[0]; //w jQuery .innerHTML=.text("jakis nowy tekst")
 	document.getElementById("silnik2").innerHTML=n[1];
 	document.getElementById("napiecie").innerHTML=n[2];
-	document.getElementById("temperatura").innerHTML=n[2];
-}
+	document.getElementById("temperatura").innerHTML=n[3];
+});
 
+$(document).ready(function(){
+        var set = setInterval(function(){
+        $("#param").load('panel.txt');
+    }, 2000);
+ //odswiezanie panelu
+ 
+});
+/*
+$(document).ready(function(){
+strin = $("#param").text();
+ alert(strin);
+});
+*/

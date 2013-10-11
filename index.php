@@ -31,6 +31,11 @@
 					<sup>o</sup>C
 					</td>
 				</tr>
+				<tr><td id = "silnik1">Tu1<td>
+					<td id = "silnik2">Tu2<td>
+					<td id = "napiecie">Tu3<td>
+					<td id = "temperatura">Tu4<td>
+				</tr>
 			</table>
 		</div>
 		<br>
